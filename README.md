@@ -24,7 +24,7 @@ If you mistakenly merged a wrong branch with yours, and you want to revert the l
 ![Git revert merge](./resources/images/revert%20merge.png)
 To revert your last merge just open your terminal, type `git reset --merge HEAD~1` and press enter. Done, now you can merge the actual branch by `git merge branch-name`
 
-## 2. How to revert last push?
+## 3. How to revert last push?
 step 1: undo the changes from server
 ```
 git push -f origin HEAD^:branch-name
