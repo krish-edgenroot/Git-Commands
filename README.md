@@ -38,3 +38,22 @@ git reset HEAD~1
 ### Use Case:
 If you mistakenly pushed some changes in your branch, and you want to revert the last push, then follow these two steps.
 
+
+## 4. How to transfer a github project to another gihub account?
+```
+git remote -v
+```
+```
+git remote remove origin
+```
+```
+git remote add origin your-new-origin
+```
+```
+git remote push origin main -f
+```
+
+### Use Case:
+You have two gthub accounts. A project initialized and developed in your first github account. Now for any reason, you want to transfer it in your second gihub account and continue developing the project in that account. 
+
+![Git amend](./resources/images/transfer%20to%20different%20github.png)
